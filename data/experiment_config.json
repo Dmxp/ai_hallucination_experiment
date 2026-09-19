@@ -1,0 +1,32 @@
+{
+  "experiment": {
+    "name": "AI Hallucination Experiment",
+    "version": "1.0",
+    "total_questions": 30,
+    "modes": [
+      "baseline",
+      "prompt",
+      "verified"
+    ]
+  },
+  "categories": {
+    "supported": 10,
+    "unsupported": 10,
+    "contradictory": 5,
+    "inference": 5
+  },
+  "evaluation": {
+    "claim_statuses": [
+      "SUPPORTED",
+      "UNSUPPORTED",
+      "CONTRADICTED"
+    ],
+    "answer_classifications": [
+      "CORRECT",
+      "CORRECT_REFUSAL",
+      "HALLUCINATION",
+      "CONTRADICTION",
+      "PARTIAL"
+    ]
+  }
+}

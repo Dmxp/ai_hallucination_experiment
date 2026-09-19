@@ -1,0 +1,47 @@
+{
+  "organization": {
+    "name": "ООО «ТехноРегион»",
+    "founded": 2018,
+    "city": "Тюмень",
+    "main_office_city": "Тюмень",
+    "employees": 84
+  },
+  "departments": [
+    {
+      "name": "Отдел разработки",
+      "employees": 17,
+      "head": "Алексей Воронов"
+    },
+    {
+      "name": "Отдел технической поддержки",
+      "employees": 12,
+      "head": "Марина Соколова"
+    },
+    {
+      "name": "Аналитический отдел"
+    }
+  ],
+  "technology": {
+    "main_programming_language": "TypeScript",
+    "database": "PostgreSQL",
+    "websocket": true
+  },
+  "infrastructure": {
+    "backup": {
+      "frequency": "ежедневно",
+      "time": "02:00",
+      "retention_days": 30
+    },
+    "authentication": "Active Directory",
+    "multi_factor_authentication": {
+      "enabled": true,
+      "applies_to": "административные учетные записи"
+    }
+  },
+  "helpdesk": {
+    "used": true,
+    "priority_levels": 4,
+    "highest_priority": "P1",
+    "notifications": "ответственным сотрудникам"
+  }
+}

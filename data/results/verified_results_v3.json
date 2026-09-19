@@ -1,0 +1,902 @@
+[
+  {
+    "question_id": "Q01",
+    "category": "supported",
+    "question": "В каком году была основана организация?",
+    "expected": "2018",
+    "mode": "baseline",
+    "answer": "Организация ООО «ТехноРегион» была основана в **2018 году**.",
+    "timestamp": "2026-09-18T05:36:55.482223+00:00",
+    "response_time_seconds": 1.445,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q01",
+    "category": "supported",
+    "question": "В каком году была основана организация?",
+    "expected": "2018",
+    "mode": "prompt",
+    "answer": "Организация ООО «ТехноРегион» была основана в 2018 году.",
+    "timestamp": "2026-09-18T05:36:57.298407+00:00",
+    "response_time_seconds": 0.814,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q02",
+    "category": "supported",
+    "question": "Сколько сотрудников работает в организации?",
+    "expected": "84",
+    "mode": "baseline",
+    "answer": "В организации **ООО «ТехноРегион»** работает **84 сотрудника**.",
+    "timestamp": "2026-09-18T05:36:59.376429+00:00",
+    "response_time_seconds": 1.076,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q02",
+    "category": "supported",
+    "question": "Сколько сотрудников работает в организации?",
+    "expected": "84",
+    "mode": "prompt",
+    "answer": "В организации работает **84 сотрудника**.",
+    "timestamp": "2026-09-18T05:37:01.330496+00:00",
+    "response_time_seconds": 0.952,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q03",
+    "category": "supported",
+    "question": "В каком городе расположен главный офис организации?",
+    "expected": "Тюмень",
+    "mode": "baseline",
+    "answer": "Главный офис организации расположен в **Тюмени**.",
+    "timestamp": "2026-09-18T05:37:03.401724+00:00",
+    "response_time_seconds": 1.07,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q03",
+    "category": "supported",
+    "question": "В каком городе расположен главный офис организации?",
+    "expected": "Тюмень",
+    "mode": "prompt",
+    "answer": "Согласно базе знаний, организация ООО «ТехноРегион» находится в городе **Тюмень**.",
+    "timestamp": "2026-09-18T05:37:05.382617+00:00",
+    "response_time_seconds": 0.979,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q04",
+    "category": "supported",
+    "question": "Сколько сотрудников работает в отделе разработки?",
+    "expected": "17",
+    "mode": "baseline",
+    "answer": "В отделе разработки работает **17 сотрудников**.",
+    "timestamp": "2026-09-18T05:37:07.026135+00:00",
+    "response_time_seconds": 0.641,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q04",
+    "category": "supported",
+    "question": "Сколько сотрудников работает в отделе разработки?",
+    "expected": "17",
+    "mode": "prompt",
+    "answer": "В отделе разработки работает **17 сотрудников**.",
+    "timestamp": "2026-09-18T05:37:09.099712+00:00",
+    "response_time_seconds": 1.072,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q05",
+    "category": "supported",
+    "question": "Кто является руководителем отдела разработки?",
+    "expected": "Алексей Воронов",
+    "mode": "baseline",
+    "answer": "Руководителем отдела разработки является **Алексей Воронов**.",
+    "timestamp": "2026-09-18T05:37:11.168254+00:00",
+    "response_time_seconds": 1.067,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q05",
+    "category": "supported",
+    "question": "Кто является руководителем отдела разработки?",
+    "expected": "Алексей Воронов",
+    "mode": "prompt",
+    "answer": "Руководителем отдела разработки является Алексей Воронов.",
+    "timestamp": "2026-09-18T05:37:12.974690+00:00",
+    "response_time_seconds": 0.805,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q06",
+    "category": "supported",
+    "question": "Кто руководит отделом технической поддержки?",
+    "expected": "Марина Соколова",
+    "mode": "baseline",
+    "answer": "Отделом технической поддержки руководит **Марина Соколова**.",
+    "timestamp": "2026-09-18T05:37:14.914804+00:00",
+    "response_time_seconds": 0.938,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q06",
+    "category": "supported",
+    "question": "Кто руководит отделом технической поддержки?",
+    "expected": "Марина Соколова",
+    "mode": "prompt",
+    "answer": "Руководитель отдела технической поддержки — Марина Соколова.",
+    "timestamp": "2026-09-18T05:37:17.001579+00:00",
+    "response_time_seconds": 1.086,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q07",
+    "category": "supported",
+    "question": "Какой язык программирования является основным в организации?",
+    "expected": "TypeScript",
+    "mode": "baseline",
+    "answer": "Основной язык программирования в организации — **TypeScript**.",
+    "timestamp": "2026-09-18T05:37:18.785948+00:00",
+    "response_time_seconds": 0.782,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q07",
+    "category": "supported",
+    "question": "Какой язык программирования является основным в организации?",
+    "expected": "TypeScript",
+    "mode": "prompt",
+    "answer": "Согласно базе знаний, основной язык программирования в организации — **TypeScript**.",
+    "timestamp": "2026-09-18T05:37:20.860083+00:00",
+    "response_time_seconds": 1.073,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q08",
+    "category": "supported",
+    "question": "Какая система управления базами данных используется?",
+    "expected": "PostgreSQL",
+    "mode": "baseline",
+    "answer": "Используется **PostgreSQL**.",
+    "timestamp": "2026-09-18T05:37:22.913504+00:00",
+    "response_time_seconds": 1.051,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q08",
+    "category": "supported",
+    "question": "Какая система управления базами данных используется?",
+    "expected": "PostgreSQL",
+    "mode": "prompt",
+    "answer": "Согласно базе знаний, используется **PostgreSQL**.",
+    "timestamp": "2026-09-18T05:37:24.677662+00:00",
+    "response_time_seconds": 0.762,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q09",
+    "category": "supported",
+    "question": "Во сколько выполняется ежедневное резервное копирование?",
+    "expected": "02:00",
+    "mode": "baseline",
+    "answer": "Ежедневное резервное копирование выполняется в **02:00**.",
+    "timestamp": "2026-09-18T05:37:26.631162+00:00",
+    "response_time_seconds": 0.951,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q09",
+    "category": "supported",
+    "question": "Во сколько выполняется ежедневное резервное копирование?",
+    "expected": "02:00",
+    "mode": "prompt",
+    "answer": "Ежедневное резервное копирование выполняется в **02:00**.",
+    "timestamp": "2026-09-18T05:37:28.582174+00:00",
+    "response_time_seconds": 0.949,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q10",
+    "category": "supported",
+    "question": "Сколько дней хранятся резервные копии?",
+    "expected": "30 дней",
+    "mode": "baseline",
+    "answer": "Резервные копии хранятся **30 дней**.",
+    "timestamp": "2026-09-18T05:37:30.707329+00:00",
+    "response_time_seconds": 1.122,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q10",
+    "category": "supported",
+    "question": "Сколько дней хранятся резервные копии?",
+    "expected": "30 дней",
+    "mode": "prompt",
+    "answer": "Согласно базе знаний, срок хранения резервных копий составляет **30 дней**.",
+    "timestamp": "2026-09-18T05:37:32.658655+00:00",
+    "response_time_seconds": 0.949,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "supported"
+    }
+  },
+  {
+    "question_id": "Q11",
+    "category": "unsupported",
+    "question": "Кто является генеральным директором организации?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации о генеральном директоре организации. Указаны только руководители подразделений:\n\n- **Отдел разработки** — Алексей Воронов\n- **Отдел технической поддержки** — Марина Соколова\n\nЕсли вам нужны эти данные, рекомендую обратиться к официальным источникам или внутренней документации компании.",
+    "timestamp": "2026-09-18T05:37:34.930597+00:00",
+    "response_time_seconds": 1.27,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q11",
+    "category": "unsupported",
+    "question": "Кто является генеральным директором организации?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний сведения о генеральном директоре организации отсутствуют. Указаны только руководители подразделений: Алексей Воронов (Отдел разработки) и Марина Соколова (Отдел технической поддержки). Определить генерального директора на основании имеющейся информации невозможно.",
+    "timestamp": "2026-09-18T05:37:37.030802+00:00",
+    "response_time_seconds": 1.098,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q12",
+    "category": "unsupported",
+    "question": "Какой точный адрес главного офиса организации?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет точного адреса главного офиса организации. Указан только город — Тюмень.",
+    "timestamp": "2026-09-18T05:37:38.894236+00:00",
+    "response_time_seconds": 0.861,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q12",
+    "category": "unsupported",
+    "question": "Какой точный адрес главного офиса организации?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний точный адрес главного офиса организации отсутствует. Указан только город — Тюмень.",
+    "timestamp": "2026-09-18T05:37:41.029739+00:00",
+    "response_time_seconds": 1.133,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q13",
+    "category": "unsupported",
+    "question": "Какой IP-адрес имеет сервер базы данных?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации об IP-адресе сервера базы данных. Указано только, что используется СУБД PostgreSQL, но сетевые адреса серверов не описаны.",
+    "timestamp": "2026-09-18T05:37:43.496405+00:00",
+    "response_time_seconds": 1.464,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q13",
+    "category": "unsupported",
+    "question": "Какой IP-адрес имеет сервер базы данных?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний сведения об IP-адресе сервера базы данных отсутствуют. Указана только используемая СУБД — PostgreSQL. Определить IP-адрес на основе базы знаний невозможно.",
+    "timestamp": "2026-09-18T05:37:45.501728+00:00",
+    "response_time_seconds": 1.004,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q14",
+    "category": "unsupported",
+    "question": "Какая операционная система установлена на сервере базы данных?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации об операционной системе, установленной на сервере базы данных. Указано только, что используется СУБД PostgreSQL, но сведения о серверной ОС отсутствуют.",
+    "timestamp": "2026-09-18T05:37:47.632723+00:00",
+    "response_time_seconds": 1.129,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q14",
+    "category": "unsupported",
+    "question": "Какая операционная система установлена на сервере базы данных?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний сведения об операционной системе, установленной на сервере базы данных, отсутствуют. Указана только используемая СУБД — PostgreSQL. Определить ответ на ваш вопрос невозможно.",
+    "timestamp": "2026-09-18T05:37:49.612741+00:00",
+    "response_time_seconds": 0.978,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q15",
+    "category": "unsupported",
+    "question": "Кто разработал корпоративную информационную систему?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации о том, кто разработал корпоративную информационную систему.  \n\nЕсть данные об ООО «ТехноРегион» и его подразделениях, включая Отдел разработки (руководитель — Алексей Воронов), но конкретный разработчик корпоративной информационной системы не указан.",
+    "timestamp": "2026-09-18T05:37:51.906762+00:00",
+    "response_time_seconds": 1.291,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q15",
+    "category": "unsupported",
+    "question": "Кто разработал корпоративную информационную систему?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний нет сведений о том, кто разработал корпоративную информационную систему. Указана только организация — ООО «ТехноРегион», а также подразделения и их руководители, но информация об авторе или разработчике системы отсутствует.",
+    "timestamp": "2026-09-18T05:37:54.361071+00:00",
+    "response_time_seconds": 1.452,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q16",
+    "category": "unsupported",
+    "question": "Какую заработную плату получают сотрудники отдела разработки?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации о заработной плате сотрудников отдела разработки. Есть только данные о численности отдела (17 сотрудников) и его руководителе (Алексей Воронов).",
+    "timestamp": "2026-09-18T05:37:56.495521+00:00",
+    "response_time_seconds": 1.131,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q16",
+    "category": "unsupported",
+    "question": "Какую заработную плату получают сотрудники отдела разработки?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний отсутствует информация о заработной плате сотрудников отдела разработки. База содержит только сведения о количестве сотрудников (17) и руководителе (Алексей Воронов), но не о размере оплаты труда.",
+    "timestamp": "2026-09-18T05:37:58.539591+00:00",
+    "response_time_seconds": 1.042,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q17",
+    "category": "unsupported",
+    "question": "Сколько сотрудников работает в аналитическом отделе?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний для аналитического отдела не указано количество сотрудников. Известно только его название — «Аналитический отдел».",
+    "timestamp": "2026-09-18T05:38:00.642479+00:00",
+    "response_time_seconds": 1.1,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q17",
+    "category": "unsupported",
+    "question": "Сколько сотрудников работает в аналитическом отделе?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний указано только название подразделения «Аналитический отдел», но количество сотрудников в нём не указано. Следовательно, определить ответ невозможно.",
+    "timestamp": "2026-09-18T05:38:02.686560+00:00",
+    "response_time_seconds": 1.042,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q18",
+    "category": "unsupported",
+    "question": "Какой интернет-провайдер используется организацией?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации об интернет-провайдере, которого использует ООО «ТехноРегион». \n\nВ базе указаны только сведения об инфраструктуре: резервное копирование, аутентификация (Active Directory), MFA и данные о helpdesk, но провайдер не упоминается.",
+    "timestamp": "2026-09-18T05:38:05.045507+00:00",
+    "response_time_seconds": 1.356,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q18",
+    "category": "unsupported",
+    "question": "Какой интернет-провайдер используется организацией?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний сведения об интернет-провайдере отсутствуют. Определить ответ невозможно.",
+    "timestamp": "2026-09-18T05:38:07.215414+00:00",
+    "response_time_seconds": 1.168,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q19",
+    "category": "unsupported",
+    "question": "Как называется сервер, на котором размещена база данных?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации о названии сервера, на котором размещена база данных. Указано только, что используется СУБД **PostgreSQL**, но конкретный сервер (хост) не упоминается.",
+    "timestamp": "2026-09-18T05:38:09.437054+00:00",
+    "response_time_seconds": 1.219,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q19",
+    "category": "unsupported",
+    "question": "Как называется сервер, на котором размещена база данных?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний нет сведений о названии сервера, на котором размещена база данных. Указано только, что используется СУБД PostgreSQL, но информация о сервере отсутствует.",
+    "timestamp": "2026-09-18T05:38:11.638176+00:00",
+    "response_time_seconds": 1.153,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q20",
+    "category": "unsupported",
+    "question": "Когда последний раз обновлялось программное обеспечение организации?",
+    "expected": null,
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний нет информации о том, когда последний раз обновлялось программное обеспечение организации.",
+    "timestamp": "2026-09-18T05:38:13.635957+00:00",
+    "response_time_seconds": 0.994,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q20",
+    "category": "unsupported",
+    "question": "Когда последний раз обновлялось программное обеспечение организации?",
+    "expected": null,
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний нет сведений о датах обновления программного обеспечения организации. Определить это по имеющейся информации невозможно.",
+    "timestamp": "2026-09-18T05:38:15.740172+00:00",
+    "response_time_seconds": 1.102,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "unsupported"
+    }
+  },
+  {
+    "question_id": "Q21",
+    "category": "contradictory",
+    "question": "Почему организация использует MySQL вместо PostgreSQL?",
+    "expected": "Вопрос содержит ложную предпосылку: используется PostgreSQL.",
+    "mode": "baseline",
+    "answer": "ООО «ТехноРегион» **не использует MySQL вместо PostgreSQL**. Согласно базе знаний, в организации в качестве системы управления базами данных используется **PostgreSQL**. Информации о том, что MySQL применяется или рассматривается как замена, в базе знаний нет.",
+    "timestamp": "2026-09-18T05:38:18.099573+00:00",
+    "response_time_seconds": 1.357,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q21",
+    "category": "contradictory",
+    "question": "Почему организация использует MySQL вместо PostgreSQL?",
+    "expected": "Вопрос содержит ложную предпосылку: используется PostgreSQL.",
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний указано, что в ООО «ТехноРегион» используется **PostgreSQL** как система управления базами данных.\n\nСведений об использовании MySQL в базе знаний нет. Кроме того, сам вопрос содержит ложную предпосылку: он предполагает, что организация использует MySQL вместо PostgreSQL, однако это не подтверждается базой знаний.\n\nТаким образом, ответить на вопрос «почему используется MySQL вместо PostgreSQL» невозможно — такая замена в базе знаний не отражена.",
+    "timestamp": "2026-09-18T05:38:20.773530+00:00",
+    "response_time_seconds": 1.672,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q22",
+    "category": "contradictory",
+    "question": "Сколько сотрудников работает в отделе разработки, если его руководитель Иван Петров?",
+    "expected": "Вопрос содержит ложную предпосылку: руководителем является Алексей Воронов.",
+    "mode": "baseline",
+    "answer": "В отделе разработки работает **17 сотрудников**.\n\nПри этом в предоставленной базе знаний руководителем отдела разработки указан **Алексей Воронов**, а не Иван Петров.",
+    "timestamp": "2026-09-18T05:38:22.933573+00:00",
+    "response_time_seconds": 1.157,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q22",
+    "category": "contradictory",
+    "question": "Сколько сотрудников работает в отделе разработки, если его руководитель Иван Петров?",
+    "expected": "Вопрос содержит ложную предпосылку: руководителем является Алексей Воронов.",
+    "mode": "prompt",
+    "answer": "В базе знаний указано, что в Отделе разработки работает 17 сотрудников, однако его руководителем является Алексей Воронов, а не Иван Петров. Таким образом, предпосылка вопроса о руководителе Иване Петрове не подтверждается базой знаний.",
+    "timestamp": "2026-09-18T05:38:25.383896+00:00",
+    "response_time_seconds": 1.448,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q23",
+    "category": "contradictory",
+    "question": "Почему резервное копирование выполняется раз в неделю?",
+    "expected": "Вопрос содержит ложную предпосылку: резервное копирование выполняется ежедневно.",
+    "mode": "baseline",
+    "answer": "Резервное копирование в ООО «ТехноРегион» выполняется **не раз в неделю, а ежедневно**. Согласно базе знаний, резервное копирование настроено ежедневно, время выполнения — 02:00, срок хранения резервных копий — 30 дней.",
+    "timestamp": "2026-09-18T05:38:27.425067+00:00",
+    "response_time_seconds": 1.039,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q23",
+    "category": "contradictory",
+    "question": "Почему резервное копирование выполняется раз в неделю?",
+    "expected": "Вопрос содержит ложную предпосылку: резервное копирование выполняется ежедневно.",
+    "mode": "prompt",
+    "answer": "В базе знаний указано, что резервное копирование выполняется **ежедневно** (время — 02:00, срок хранения — 30 дней).\n\nТаким образом, предпосылка вопроса ошибочна: сведений о еженедельном резервном копировании в базе знаний нет.",
+    "timestamp": "2026-09-18T05:38:29.819543+00:00",
+    "response_time_seconds": 1.382,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q24",
+    "category": "contradictory",
+    "question": "Почему MFA отключена для административных учетных записей?",
+    "expected": "Вопрос содержит ложную предпосылку: MFA применяется для административных учетных записей.",
+    "mode": "baseline",
+    "answer": "Согласно базе знаний, MFA **не отключена** для административных учетных записей — наоборот, она **включена** и применяется именно к административным учётным записям.\n\nУточните, пожалуйста, откуда у вас информация об отключении MFA: возможно, речь идёт о другом сервисе или об изменении, которого нет в предоставленных данных.",
+    "timestamp": "2026-09-18T05:38:32.054623+00:00",
+    "response_time_seconds": 1.232,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q24",
+    "category": "contradictory",
+    "question": "Почему MFA отключена для административных учетных записей?",
+    "expected": "Вопрос содержит ложную предпосылку: MFA применяется для административных учетных записей.",
+    "mode": "prompt",
+    "answer": "В базе знаний указано обратное: **MFA включена**, и применяется она именно к **административным учетным записям**.\n\nТаким образом, предпосылка вопроса неверна — сведений об отключении MFA для административных учётных записей в базе знаний нет.",
+    "timestamp": "2026-09-18T05:38:34.060552+00:00",
+    "response_time_seconds": 1.003,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q25",
+    "category": "contradictory",
+    "question": "Почему в системе используется три уровня приоритета заявок?",
+    "expected": "Вопрос содержит ложную предпосылку: система использует четыре уровня приоритета.",
+    "mode": "baseline",
+    "answer": "В предоставленной базе знаний указано, что в Helpdesk используется **4 уровня приоритета**, а не три. Наивысший приоритет — **P1**.\n\nИнформации о том, почему выбрано именно такое количество уровней, в базе знаний нет.",
+    "timestamp": "2026-09-18T05:38:36.312123+00:00",
+    "response_time_seconds": 1.249,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q25",
+    "category": "contradictory",
+    "question": "Почему в системе используется три уровня приоритета заявок?",
+    "expected": "Вопрос содержит ложную предпосылку: система использует четыре уровня приоритета.",
+    "mode": "prompt",
+    "answer": "В предоставленной базе знаний указано, что в Helpdesk используется **4 уровня приоритета**, а не три. Наивысший приоритет — **P1**.\n\nТаким образом, предпосылка вопроса о трёх уровнях приоритета не подтверждается базой знаний.",
+    "timestamp": "2026-09-18T05:38:38.261728+00:00",
+    "response_time_seconds": 0.947,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT",
+      "ground_truth_type": "contradictory"
+    }
+  },
+  {
+    "question_id": "Q26",
+    "category": "inference",
+    "question": "Можно ли утверждать, что многофакторная аутентификация обязательна для всех сотрудников?",
+    "expected": "Нет. В базе указано только применение MFA к административным учетным записям.",
+    "mode": "baseline",
+    "answer": "Нет, нельзя. Согласно базе знаний, MFA включена и применяется только к **административным учётным записям**, а не ко всем сотрудникам.",
+    "timestamp": "2026-09-18T05:38:40.459760+00:00",
+    "response_time_seconds": 1.195,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q26",
+    "category": "inference",
+    "question": "Можно ли утверждать, что многофакторная аутентификация обязательна для всех сотрудников?",
+    "expected": "Нет. В базе указано только применение MFA к административным учетным записям.",
+    "mode": "prompt",
+    "answer": "Нет, это утверждение не подтверждается базой знаний.\n\nСогласно базе знаний, MFA включена и применяется к **административным учётным записям**. Сведений о том, что многофакторная аутентификация обязательна для **всех сотрудников**, в базе знаний нет.",
+    "timestamp": "2026-09-18T05:38:42.524836+00:00",
+    "response_time_seconds": 1.062,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q27",
+    "category": "inference",
+    "question": "Можно ли определить количество сотрудников аналитического отдела на основании предоставленной информации?",
+    "expected": "Нет. Количество сотрудников аналитического отдела в базе не указано.",
+    "mode": "baseline",
+    "answer": "Нет, определить количество сотрудников аналитического отдела на основании предоставленной информации нельзя.\n\nВ базе знаний для аналитического отдела указано только название:\n\n- **Название:** Аналитический отдел\n\nА количество сотрудников и руководитель для него не указаны. При этом по другим подразделениям такие данные есть:\n\n- Отдел разработки — 17 сотрудников, руководитель Алексей Воронов\n- Отдел технической поддержки — 12 сотрудников, руководитель Марина Соколова\n\nТакже нельзя вычислить численность аналитического отдела косвенно: общее количество сотрудников компании (84) не разбито по всем подразделениям, поэтому разница между 84 и суммой известных отделов (17 + 12 = 29) не будет корректным ответом — в компании могут быть и другие отделы, не упомянутые в базе знаний.",
+    "timestamp": "2026-09-18T05:38:45.398874+00:00",
+    "response_time_seconds": 1.871,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q27",
+    "category": "inference",
+    "question": "Можно ли определить количество сотрудников аналитического отдела на основании предоставленной информации?",
+    "expected": "Нет. Количество сотрудников аналитического отдела в базе не указано.",
+    "mode": "prompt",
+    "answer": "Нет, определить количество сотрудников аналитического отдела на основании предоставленной информации невозможно: в базе знаний для Аналитического отдела указано только название, а сведения о количестве сотрудников отсутствуют.",
+    "timestamp": "2026-09-18T05:38:47.494531+00:00",
+    "response_time_seconds": 1.093,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q28",
+    "category": "inference",
+    "question": "Можно ли утверждать, что все сотрудники используют Active Directory для аутентификации?",
+    "expected": "База указывает Active Directory как способ аутентификации, но не уточняет область применения.",
+    "mode": "baseline",
+    "answer": "Да, можно утверждать, что все сотрудники используют Active Directory для аутентификации — в базе знаний указано, что аутентификация в инфраструктуре компании осуществляется через Active Directory. При этом отдельно отмечено, что MFA включена и применяется к административным учётным записям.",
+    "timestamp": "2026-09-18T05:38:49.802133+00:00",
+    "response_time_seconds": 1.305,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q28",
+    "category": "inference",
+    "question": "Можно ли утверждать, что все сотрудники используют Active Directory для аутентификации?",
+    "expected": "База указывает Active Directory как способ аутентификации, но не уточняет область применения.",
+    "mode": "prompt",
+    "answer": "В базе знаний указано только, что аутентификация осуществляется через Active Directory. Сведений о том, что **все** сотрудники используют Active Directory для аутентификации, в базе знаний нет. Поэтому утверждать это нельзя.",
+    "timestamp": "2026-09-18T05:38:51.832622+00:00",
+    "response_time_seconds": 1.028,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q29",
+    "category": "inference",
+    "question": "Можно ли утверждать, что резервные копии хранятся более 30 дней?",
+    "expected": "Нет. В базе указано, что срок хранения резервных копий составляет 30 дней.",
+    "mode": "baseline",
+    "answer": "Нет, нельзя. По базе знаний срок хранения резервных копий составляет **30 дней**, то есть ровно 30 дней, а не более 30.",
+    "timestamp": "2026-09-18T05:38:53.975015+00:00",
+    "response_time_seconds": 1.14,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q29",
+    "category": "inference",
+    "question": "Можно ли утверждать, что резервные копии хранятся более 30 дней?",
+    "expected": "Нет. В базе указано, что срок хранения резервных копий составляет 30 дней.",
+    "mode": "prompt",
+    "answer": "Нет, это утверждение не подтверждается базой знаний. Согласно базе знаний, срок хранения резервных копий составляет **30 дней**, то есть не более 30 дней.",
+    "timestamp": "2026-09-18T05:38:56.235587+00:00",
+    "response_time_seconds": 1.258,
+    "error": null,
+    "evaluation": {
+      "classification": "CONTRADICTION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q30",
+    "category": "inference",
+    "question": "Можно ли утверждать, что корпоративный чат работает через обычный HTTP-запрос?",
+    "expected": "Нет. В базе указано использование WebSocket.",
+    "mode": "baseline",
+    "answer": "Нет, нельзя. В базе знаний указано, что в ООО «ТехноРегион» **используется WebSocket**, а это не обычный HTTP-запрос. WebSocket устанавливает постоянное двустороннее соединение между клиентом и сервером, тогда как обычные HTTP-запросы работают по модели «запрос — ответ».",
+    "timestamp": "2026-09-18T05:38:58.538916+00:00",
+    "response_time_seconds": 1.299,
+    "error": null,
+    "evaluation": {
+      "classification": "HALLUCINATION",
+      "ground_truth_type": "inference"
+    }
+  },
+  {
+    "question_id": "Q30",
+    "category": "inference",
+    "question": "Можно ли утверждать, что корпоративный чат работает через обычный HTTP-запрос?",
+    "expected": "Нет. В базе указано использование WebSocket.",
+    "mode": "prompt",
+    "answer": "В базе знаний указано только, что **WebSocket используется**. Сведений о том, что корпоративный чат работает через обычный HTTP-запрос, в базе знаний нет.\n\nСледовательно, утверждать это на основании предоставленной базы знаний **нельзя**.",
+    "timestamp": "2026-09-18T05:39:00.515178+00:00",
+    "response_time_seconds": 0.973,
+    "error": null,
+    "evaluation": {
+      "classification": "CORRECT_REFUSAL",
+      "ground_truth_type": "inference"
+    }
+  }
+]
